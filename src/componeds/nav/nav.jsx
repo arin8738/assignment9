@@ -9,7 +9,7 @@ const Nav = () => {
                 <div><h2 className='font-extrabold text-3xl mt-3'>CareerHub</h2></div>
                 <div>
                     <ul className='flex gap-8 mt-3'>
-                    <link to="/">Home</link>
+                    <Link to="/">Home</Link>
                         <Link to="/Statistics">Statistics</Link>
                         <Link to="/Applied-Jobs">Applied Jobs</Link>
                         <Link to="/Blog">Blog</Link>

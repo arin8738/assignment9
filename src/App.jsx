@@ -5,7 +5,7 @@ import './App.css'
 import Nav from './componeds/nav/nav'
 import Banner from './componeds/banner/Banner'
 import Job from './componeds/job/Job'
-import { useActionData, useLoaderData } from 'react-router-dom'
+import { Outlet, useActionData, useLoaderData } from 'react-router-dom'
 import Outlets from './componeds/outlets/Outlets'
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
      <Nav></Nav>
      {/* <Banner></Banner> */}
      {/* <Job JobClist={JobClist}></Job> */}
-     <Outlets></Outlets>
+    <Outlet></Outlet>
 
     </div>
   )
