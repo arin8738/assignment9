@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import FJob from './FJob';
+import { Link } from 'react-router-dom';
 
 const FeaturedJobs = () => {
 
@@ -29,11 +30,11 @@ const FeaturedJobs = () => {
             <p className='jobCategory-p text-base mb-8'>Explore thousands of jobs opportunities with all information you need. Its your future</p>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                 {
-                    Jobs.map(job => <FJob key = {job.id} job={job}></FJob>)
+                    jobs.map(job => <FJob key = {job.id} job={job}></FJob>)
                 }
             </div>
             <button id='seeAllJobs' className='mt-10 mb-32 py-2 px-3 bg-slate-500 rounded-md w-40 h-16 mx-auto' onClick={seeAllJobs}>
-                <link className='text-white font-bold bg-slate-500'>See All Jobs</link>
+                <Link className='text-white font-bold bg-slate-500'>See All Jobs</Link>
                 </button>
         </div>
     );
