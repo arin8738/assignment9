@@ -1,6 +1,6 @@
 import React from 'react';
 
-const JobList = (list) => {
+const JobList = ({list}) => {
     console.log(list)
     return (
         <div className='bg-gray-100 text-left p-10 rounded-md'>
