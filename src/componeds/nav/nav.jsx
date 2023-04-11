@@ -6,7 +6,7 @@ const Nav = () => {
     return (
         <div className='bg-cyan-100'>
             <div className='flex justify-around pt-5 pb-8'>
-                <div><h2 className='font-extrabold text-3xl mt-3'>CareerHub</h2></div>
+                <div><h2 className='font-extrabold text-3xl mt-3'> JOBHunt</h2></div>
                 <div>
                     <ul className='flex gap-8 mt-3'>
                     <Link to="/">Home</Link>

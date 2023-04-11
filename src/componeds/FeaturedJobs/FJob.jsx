@@ -20,7 +20,7 @@ const FJob = ({job}) => {
                 <p><FontAwesomeIcon icon={faLocationDot} /><span className='ml-2'>{job.location}</span></p>
                 <p className='ml-6'><FontAwesomeIcon icon={faDollarSign} /><span className='ml-2'>Salary: {job.salary}</span></p>
             </div>
-            <button className='py-2 px-3 bg-slate-500 rounded-md'><Link to={`/view-details/${job.id}`} className='text-white font-semibold bg-slate-500'>View Details</Link></button>
+            <button className='py-2 px-3 bg-blue-500 pt-2 pb-2 font-semibold text-white rounded-md'><Link to={`/view-details/${job.id}`} className=' '>View Details</Link></button>
 
         </div>
     );
