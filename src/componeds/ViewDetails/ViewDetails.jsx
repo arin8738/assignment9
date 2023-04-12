@@ -14,11 +14,11 @@ const ViewDetails = () => {
     console.log(jobDetails);
 
     const addToLocalStorage = id => {
-        // console.log(id)
+
         addToDb(id);
     }
 
-    //   console.log(jobDetails);
+
     return (
         <>
 
