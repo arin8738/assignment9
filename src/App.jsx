@@ -9,15 +9,11 @@ import { Outlet, useActionData, useLoaderData } from 'react-router-dom'
 import Outlets from './componeds/outlets/Outlets'
 
 function App() {
-  // const [count, setCount] = useState(0)
-  // const JobClist = useLoaderData();
 
 
   return (
     <div className="App">
      <Nav></Nav>
-     {/* <Banner></Banner> */}
-     {/* <Job JobClist={JobClist}></Job> */}
     <Outlet></Outlet>
 
     </div>
