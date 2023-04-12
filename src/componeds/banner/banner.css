@@ -1,0 +1,21 @@
+@media (max-width: 576px) {
+    .main-div{
+        display: flex;
+        flex-direction: column-reverse;
+            padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    }
+    .banner-img{
+        padding-bottom: 40px;
+        margin: auto;
+
+}
+ .banner-btn{
+    margin: 20px auto;
+ }
+ .banner-title{
+    font-size: 55px;
+ }
+
+}

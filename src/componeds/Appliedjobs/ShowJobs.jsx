@@ -34,8 +34,8 @@ const ShowJobs = ({job}) => {
                     </div>
                 </div>
                 <div>
-                    <button className='py-2 px-3 bg-slate-500 rounded-md mr-7'>
-                        <Link to={`/view-details/${job.id}`} className='text-white font-semibold bg-slate-500'>View Details</Link></button>
+                    <button className='py-2 px-3 bg-blue-500 font-semibold rounded-md mr-7'>
+                        <Link to={`/view-details/${job.id}`} className='text-white bg-blue-500 font-semibold'>View Details</Link></button>
                 </div>
             </div>
         </div>

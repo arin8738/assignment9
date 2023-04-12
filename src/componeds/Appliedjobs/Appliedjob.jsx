@@ -78,16 +78,16 @@ const AppliedJobs = () => {
     return (
         <>
 
-            <div className='bg-emerald-50 absolute right-64 my-10 px-4 py-2 rounded-lg'>
+            <div className=' absolute right-64 my-10 px-4 py-2 rounded-lg'>
                 <h4 className='text-center text-3xl font-semibold'>Filter By</h4>
-                <button className="m-2 py-1 px-2 text-2xl border-2 rounded border-emerald-100 bg-teal-500 hover:bg-rose-400" onClick={remoteBtn}>Remote</button>
-                <button className="m-2 py-1 px-2 text-2xl border-2 rounded border-emerald-100 bg-teal-500 hover:bg-rose-400" onClick={onsideBtn}>Onsite</button>
+                <button className="m-2 py-1 px-2 text-2xl border-2 rounded bg-blue-300 font-semibold" onClick={remoteBtn}>Remote</button>
+                <button className="m-2 py-1 px-2 text-2xl border-2 rounded bg-blue-300 font-semibold" onClick={onsideBtn}>Onsite</button>
 
             </div>
 
             <div className='mb-20 mt-40'>
-                {savedCartItem.map(job => <ShowJobs job = {job}></ShowJobs>)}
-                {/* {
+                {/* {savedCartItem.map(job => <ShowJobs job = {job}></ShowJobs>)} */}
+                {
                     onside == 0 && remote == 0 ? savedCartItem.map(job => <ShowJobs job = {job}></ShowJobs>) : 
                     
                     (onside > 0 ? savedOnside.map(job => <ShowJobs job = {job}></ShowJobs>) : 
@@ -96,7 +96,7 @@ const AppliedJobs = () => {
 
                 //    (onside) && savedOnside.map(job => <ShowJobs job = {job}></ShowJobs>)
                 //    (remote) && savedRemote.map(job => <ShowJobs job = {job}></ShowJobs>)
-                } */}
+                }
             </div>
         </>
     );

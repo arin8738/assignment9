@@ -63,7 +63,7 @@ const ViewDetails = () => {
                         </p>
 
                     </div>
-                    <button onClick={() => addToLocalStorage(jobID)} className="bg-slate-500 py-5 w-full rounded-lg text-white font-bold text-xl">Apply Now</button>
+                    <button onClick={() => addToLocalStorage(jobID)} className="bg-blue-500 font-semibold py-5 w-full rounded-lg text-white text-xl">Apply Now</button>
                 </div>
             </div>
         </>

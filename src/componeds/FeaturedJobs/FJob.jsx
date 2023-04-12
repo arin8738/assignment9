@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const FJob = ({job}) => {
     return (
-        <div className='mt-8 mr-6 rounded-lg p-10 border-2 border-slate-200 text-left'>
+        <div className=' rounded-lg p-10 border-2 border-slate-200 text-left'>
             <div>
                 <img className='w-40 h-10' src={job.company_logo} alt="company logo" />
             </div>

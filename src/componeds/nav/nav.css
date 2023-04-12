@@ -1,18 +1,16 @@
 @media (max-width: 576px) {
     .nav {
-        /* display: flex; */
+      
         flex-direction: column;
-        /* justify-content: center; */
+        
     }
 
     .nav-title {
-        /* justify-content: center; */
-        /* display: flex; */
+        margin: auto;
     }
 
     .nav-btn {
-        /* display: flex;
-        justify-content: center; */
-        font-size: 10px;
+        margin: auto;
+        font-size: 15px;
     }
 }
