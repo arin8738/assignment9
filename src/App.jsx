@@ -5,9 +5,7 @@ import './App.css'
 import Nav from './componeds/nav/nav'
 import { Outlet, useActionData, useLoaderData } from 'react-router-dom'
 
-
 function App() {
-
 
   return (
     <div className="App">
